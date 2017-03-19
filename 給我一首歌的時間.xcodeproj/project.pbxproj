@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AEFE421E7C528F00CC747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEFE411E7C528F00CC747C /* AppDelegate.swift */; };
+		19AEFE441E7C528F00CC747C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEFE431E7C528F00CC747C /* ViewController.swift */; };
+		19AEFE471E7C528F00CC747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AEFE451E7C528F00CC747C /* Main.storyboard */; };
+		19AEFE491E7C528F00CC747C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AEFE481E7C528F00CC747C /* Assets.xcassets */; };
+		19AEFE4C1E7C528F00CC747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AEFE4A1E7C528F00CC747C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AEFE3E1E7C528F00CC747C /* 給我一首歌的時間.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "給我一首歌的時間.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AEFE411E7C528F00CC747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19AEFE431E7C528F00CC747C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19AEFE461E7C528F00CC747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19AEFE481E7C528F00CC747C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19AEFE4B1E7C528F00CC747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19AEFE4D1E7C528F00CC747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19AEFE3B1E7C528E00CC747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AEFE351E7C528E00CC747C = {
+			isa = PBXGroup;
+			children = (
+				19AEFE401E7C528F00CC747C /* 給我一首歌的時間 */,
+				19AEFE3F1E7C528F00CC747C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19AEFE3F1E7C528F00CC747C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19AEFE3E1E7C528F00CC747C /* 給我一首歌的時間.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AEFE401E7C528F00CC747C /* 給我一首歌的時間 */ = {
+			isa = PBXGroup;
+			children = (
+				19AEFE411E7C528F00CC747C /* AppDelegate.swift */,
+				19AEFE431E7C528F00CC747C /* ViewController.swift */,
+				19AEFE451E7C528F00CC747C /* Main.storyboard */,
+				19AEFE481E7C528F00CC747C /* Assets.xcassets */,
+				19AEFE4A1E7C528F00CC747C /* LaunchScreen.storyboard */,
+				19AEFE4D1E7C528F00CC747C /* Info.plist */,
+			);
+			path = "給我一首歌的時間";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19AEFE3D1E7C528E00CC747C /* 給我一首歌的時間 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AEFE501E7C528F00CC747C /* Build configuration list for PBXNativeTarget "給我一首歌的時間" */;
+			buildPhases = (
+				19AEFE3A1E7C528E00CC747C /* Sources */,
+				19AEFE3B1E7C528E00CC747C /* Frameworks */,
+				19AEFE3C1E7C528E00CC747C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "給我一首歌的時間";
+			productName = "給我一首歌的時間";
+			productReference = 19AEFE3E1E7C528F00CC747C /* 給我一首歌的時間.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19AEFE361E7C528E00CC747C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jennifer Wang";
+				TargetAttributes = {
+					19AEFE3D1E7C528E00CC747C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19AEFE391E7C528E00CC747C /* Build configuration list for PBXProject "給我一首歌的時間" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19AEFE351E7C528E00CC747C;
+			productRefGroup = 19AEFE3F1E7C528F00CC747C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AEFE3D1E7C528E00CC747C /* 給我一首歌的時間 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AEFE3C1E7C528E00CC747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AEFE4C1E7C528F00CC747C /* LaunchScreen.storyboard in Resources */,
+				19AEFE491E7C528F00CC747C /* Assets.xcassets in Resources */,
+				19AEFE471E7C528F00CC747C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AEFE3A1E7C528E00CC747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AEFE441E7C528F00CC747C /* ViewController.swift in Sources */,
+				19AEFE421E7C528F00CC747C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19AEFE451E7C528F00CC747C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AEFE461E7C528F00CC747C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19AEFE4A1E7C528F00CC747C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AEFE4B1E7C528F00CC747C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19AEFE4E1E7C528F00CC747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19AEFE4F1E7C528F00CC747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19AEFE511E7C528F00CC747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "給我一首歌的時間/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jennifer-Wang.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19AEFE521E7C528F00CC747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "給我一首歌的時間/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jennifer-Wang.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19AEFE391E7C528E00CC747C /* Build configuration list for PBXProject "給我一首歌的時間" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AEFE4E1E7C528F00CC747C /* Debug */,
+				19AEFE4F1E7C528F00CC747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AEFE501E7C528F00CC747C /* Build configuration list for PBXNativeTarget "給我一首歌的時間" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AEFE511E7C528F00CC747C /* Debug */,
+				19AEFE521E7C528F00CC747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19AEFE361E7C528E00CC747C /* Project object */;
+}
